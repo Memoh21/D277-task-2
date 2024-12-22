@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif; 
+    line-height: 1.6; 
+}
+header {
+    text-align: center;
+}
+.main-content {
+    margin: flex; /* Center the main content */
+    justify-content: space-between; /* Adjust width of the content */
+}
+
+/* Main section styling */
+section {
+    width: 60%; 
+    float: left; 
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+/* Center images within the section */
+section img {
+    display: block;
+    margin: 0 auto;
+    width: 300px; 
+    height: auto; 
+}
+
+/* Aside styling */
+aside {
+    width: 25%; 
+    float: right; 
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+/* Clear the floats so the footer stays below */
+footer {
+    clear: both;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+/* Navigation bar styling */
+nav {
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #111;
+}
+
+/* Headings styling */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 1px solid #ddd; 
+}
+
+table th, table td {
+    border: 1px solid #ddd; 
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+/* Style for the Contact Us button */
+.contact-button {
+    background-color: #4CAF50;
+    color: white; 
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px; /* Space between other nav links */
+}
+
+.contact-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+
